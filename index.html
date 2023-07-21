@@ -1,0 +1,1196 @@
+<!DOCTYPE>
+<html lang="es-MX">
+    <head>
+        <title>
+            LA_MUDI - TEST
+        </title>
+        <link rel="stylesheet" href="./src/css/main-styles.css">
+    </head>
+    <body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark navigation_mobile--fixed-data" id="navigation-mobile">
+    <div class="container-fluid header">
+    <a class="navbar-brand" href="/">
+    <img src="https://multimedia.lamudi.com.mx/lamudi/mx/images/lamudi.svg" alt="Lamudi" width="97" height="26">
+    </a>
+    <span class="numero-1">
+    <img class="numero-1__icon" alt="icono de medalla" src="https://multimedia.lamudi.com.mx/lamudi/mx/images/icon-medal_m_white.svg">
+    <span class="numero-1__text">El portal número 1 de bienes raíces</span>
+    </span>
+    <div class="header-menu-desktop">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <button class="nav-link" type="button" data-bs-hover="dropdown">En venta</button>
+            <div class="dropdown-menu">
+                <ul class="dropdown-menu__content">
+    <li><a href="/casa/for-sale/">Casas en Venta</a></li>
+    <li><a href="/departamento/for-sale/">Departamentos en Venta</a></li>
+    <li><a href="/offices/for-sale/">Oficinas en Venta</a></li>
+    <li><a href="/terreno/for-sale/">Terrenos en Venta</a></li>
+    <li><a href="/comercial/for-sale/">Locales en Venta</a></li>
+    <li><a href="/for-sale/">Todas las Propiedades en Venta</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" type="button" data-bs-hover="dropdown">En renta</button>
+            <div class="dropdown-menu">
+                <ul class="dropdown-menu__content">
+    <li><a href="/casa/for-rent/">Casas en Renta</a></li>
+    <li><a href="/departamento/for-rent/">Departamentos en Renta</a></li>
+    <li><a href="/offices/for-rent/">Oficinas en Renta</a></li>
+    <li><a href="/terreno/for-rent/">Terrenos en Renta</a></li>
+    <li><a href="/comercial/for-rent/">Locales en Renta</a></li>
+    <li><a href="/for-rent/">Todas las Propiedades en Renta</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a href="/newdevelopments/search/for-sale/" data-test="newDevelopmentsButton" class="nav-link">Nuevos
+                Desarrollos</a>
+        </li>
+        <li class="nav-item">
+            <button class="nav-link" type="button" data-bs-hover="dropdown">Recursos</button>
+            <div class="dropdown-menu">
+                <ul class="dropdown-menu__content">
+    <li><a href="/journal/">Blog</a></li>
+    <li><a href="https://socasesores.com/simulador-credito-hipotecario/" target="_blank">Calculadora hipotecaria</a>
+    </li>
+    <li><a href="/journal/guia-infonavit/">Guía INFONAVIT</a></li>
+    <li><a href="/journal/guias-inmuebles/">Guía de Propiedades</a></li>
+    <li><a href="/journal/reportes-mercado-inmobiliario/">Reportes del mercado inmobiliario</a></li>
+    <li><a href="/journal/credito-infonavit-lamudi/">Crédito INFONAVIT</a></li>
+    <li><a href="/journal/guia-de-inversion-inmobiliaria-lamudi/">Guía de Inversión Inmobiliaria</a></li>
+    <li><a href="https://www.lifullconnect.com/contactanos/" target="_blank">Preguntas frecuentes</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a href="/foreclosures/for-sale/" data-test="propertyBankButton" class="nav-link">Remates</a>
+        </li>
+    </ul>
+    <a href="https://proppit.com/?country=mx" target="_blank" data-test="publishButton" class="btn btn-sm publish-button">Ofrece una propiedad</a>
+    </div>
+    <div class="header-menu-mobile">
+    <button class="dropdown-toggle" type="button" data-test="navbarButton" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" data-bs-target="#header-menu-mobile-dropdown" aria-controls="#header-menu-mobile-dropdown" aria-label="Header Menu">
+        <img class="navbar-toggler__icon" alt="icono de menú" src="https://multimedia.lamudi.com.mx/lamudi/mx/images/icon-menu_m_white.svg">
+    </button>
+    <div class="dropdown-menu dropdown-menu-end" id="header-menu-mobile-dropdown">
+        <a href="https://proppit.com/?country=mx" target="_blank" data-test="publishButton" class="btn btn-sm publish-button">Ofrece una propiedad</a>
+        <div class="accordion" id="header-menu-mobile__accordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseForSale" aria-expanded="true" aria-controls="collapseForSale">
+                        En venta
+                    </button>
+                </h2>
+                <div id="collapseForSale" class="accordion-collapse collapse" data-bs-parent="#header-menu-mobile__accordion">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+    <li><a href="/casa/for-sale/">Casas en Venta</a></li>
+    <li><a href="/departamento/for-sale/">Departamentos en Venta</a></li>
+    <li><a href="/offices/for-sale/">Oficinas en Venta</a></li>
+    <li><a href="/terreno/for-sale/">Terrenos en Venta</a></li>
+    <li><a href="/comercial/for-sale/">Locales en Venta</a></li>
+    <li><a href="/for-sale/">Todas las Propiedades en Venta</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseForRent" aria-expanded="false" aria-controls="collapseForRent">
+                        En renta
+                    </button>
+                </h2>
+                <div id="collapseForRent" class="accordion-collapse collapse" data-bs-parent="#header-menu-mobile__accordion">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+    <li><a href="/casa/for-rent/">Casas en Renta</a></li>
+    <li><a href="/departamento/for-rent/">Departamentos en Renta</a></li>
+    <li><a href="/offices/for-rent/">Oficinas en Renta</a></li>
+    <li><a href="/terreno/for-rent/">Terrenos en Renta</a></li>
+    <li><a href="/comercial/for-rent/">Locales en Renta</a></li>
+    <li><a href="/for-rent/">Todas las Propiedades en Renta</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <a href="/newdevelopments/search/for-sale/" data-test="propertyBankButton" class="accordion-button">Nuevos Desarrollos</a>
+                </h2>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseResources" aria-expanded="false" aria-controls="collapseResources">
+                        Recursos
+                    </button>
+                </h2>
+                <div id="collapseResources" class="accordion-collapse collapse" data-bs-parent="#header-menu-mobile__accordion">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled">
+    <li><a href="/journal/">Blog</a></li>
+    <li><a href="https://socasesores.com/simulador-credito-hipotecario/" target="_blank">Calculadora hipotecaria</a>
+    </li>
+    <li><a href="/journal/guia-infonavit/">Guía INFONAVIT</a></li>
+    <li><a href="/journal/guias-inmuebles/">Guía de Propiedades</a></li>
+    <li><a href="/journal/reportes-mercado-inmobiliario/">Reportes del mercado inmobiliario</a></li>
+    <li><a href="/journal/credito-infonavit-lamudi/">Crédito INFONAVIT</a></li>
+    <li><a href="/journal/guia-de-inversion-inmobiliaria-lamudi/">Guía de Inversión Inmobiliaria</a></li>
+    <li><a href="https://www.lifullconnect.com/contactanos/" target="_blank">Preguntas frecuentes</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <a href="/foreclosures/for-sale/" data-test="propertyBankButton" class="accordion-button">Remates</a>
+                </h2>
+            </div>
+            <div class="accordion-item accordion-item-proppit">
+                <h2 class="accordion-header">
+                    <a href="https://proppit.com/login?user-from-lamudi=true" class="accordion-button" target="_blank">Entrar como agente</a>
+                </h2>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </nav>
+
+    <script>
+    function setCookiesForClick(position, section, url) {
+    document.cookie = "pos=" + position + "; expires=" + 100000 + "; path=/";
+    document.cookie = "t_sec=" + section + "; expires=" + 100000 + "; path=/";
+    window.location.href = url;
+    }
+    </script>
+
+    <div class="fullpage-modal  email-inquiry-modal" id="email-inquiry-modal">
+    <div class="background">
+    <div class="modal-view">
+    <div class="header">
+        <div class="title">Llamar</div>
+        <div class="close close--lamudi" id="close-email-inquiry-modal"></div>
+    </div>
+    <div class="content">
+    <div id="view-phone-contact-form" class="form">
+    <div class="message">Ingresa tu celular aquí para ver el mío</div>
+    <div class="adform-input-wrapper">
+    <div class="adform-input-header">
+        <span id="phone-modal-email-error" class="error-text">Campo obligatorio</span>
+    </div>
+    <input id="phone-modal-phone-input" class="adform-input" type="tel" name="view-phone-phone" data-test="phone-modal-phone-input" placeholder="Teléfono*">
+    </div>
+    <button id="view-phone-contact-button" data-test="phone-modal-phone-button" data-event="false" class="adform-button filled">Ver el número de teléfono</button>
+    <span class="privacy-and-conditions">Al dar click e ingresar tus datos, estará aceptando los <a href="https://www.lifullconnect.com/aviso-legal-direct/" target="_blank">Términos y condiciones de Lamudi</a> y las <a href="https://www.lifullconnect.com/global-privacy-policy-region6/" target="_blank">Políticas de Privacidad</a> de la página.</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="fullpage-modal  agency-phone-modal" id="agency-phone-modal">
+    <div class="background">
+    <div class="modal-view">
+    <div class="header">
+        <div class="title">Llamar</div>
+        <div class="close close--lamudi" id="close-agency-phone-modal"></div>
+    </div>
+    <div class="content">
+    <div class="agency-name">Business World Inmobiliaria - Business World Inmobiliaria</div>
+    <div class="phone-number">
+    <span>+52525536691411</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="fullpage-modal  contact-modal-show-form" id="contact-modal">
+    <div class="background">
+    <div class="modal-view">
+    <div class="header">
+        <div class="title">Más información</div>
+        <div class="close close--lamudi" id="close-contact-modal"></div>
+    </div>
+    <div class="content">
+    <div id="contact-modal-form" class="contact-form">
+    <div class="form ">
+
+
+        <div class="adform-input-wrapper">
+            <div class="adform-input-header">
+                <span class="error-text">Campo obligatorio</span>
+            </div>
+            <input id="form-name-contact" class="adform-input" type="text" name="name" placeholder="Nombre*">
+        </div>
+
+        <div class="adform-input-wrapper">
+            <div class="adform-input-header">
+                <span class="error-text">Campo obligatorio</span>
+            </div>
+            <input id="form-email-contact" class="adform-input" type="email" name="email" placeholder="Email*">
+        </div>
+        <div class="phone">
+            <input id="form-phone-contact" class="adform-input" type="tel" name="phone" placeholder="Teléfono*">
+            <span class="feedback">El teléfono debe tener formato numérico</span>
+        </div>
+        <textarea id="form-message-contact" class="adform-textarea adform-input" name="message" cols="30" rows="10" placeholder="Me gustaría recibir más información sobre la propiedad con referencia MDVD01"></textarea>
+        <button id="request-info-send-button-contact" class="adform-button filled">Enviar</button>
+        <span class="privacy-and-conditions">Al dar click e ingresar tus datos, estará aceptando los <a href="https://www.lifullconnect.com/aviso-legal-direct/" target="_blank">Términos y condiciones de Lamudi</a> y las <a href="https://www.lifullconnect.com/global-privacy-policy-region6/" target="_blank">Políticas de Privacidad</a> de la página.</span>
+    </div>
+
+    <div class="on-success">
+        <span>¡Listo!
+    Hemos enviado tu mensaje al anunciante.</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="fullpage-modal  schedule-visit-modal" id="schedule-visit-modal">
+    <div class="background">
+    <div class="modal-view">
+    <div class="header">
+        <div class="title">Coordinar visita</div>
+        <div class="close close--lamudi" id="close-schedule-visit-modal"></div>
+    </div>
+    <div class="content">
+    <div id="schedule-visit-modal-form" class="contact-form">
+    <div class="form">
+
+
+    <div class="adform-input-wrapper">
+        <div class="adform-input-header">
+            <span class="error-text">Campo obligatorio</span>
+        </div>
+        <input id="form-name-schedule-visit" class="adform-input" type="text" name="name" placeholder="Nombre*">
+    </div>
+
+    <div class="adform-input-wrapper">
+        <div class="adform-input-header">
+            <span class="error-text">Campo obligatorio</span>
+        </div>
+        <input id="form-email-schedule-visit" class="adform-input" type="email" name="email" placeholder="Email*">
+    </div>
+
+    <div class="adform-input-wrapper">
+        <div class="phone">
+            <input id="form-phone-schedule-visit" class="adform-input" type="tel" name="phone" placeholder="Teléfono">
+            <span class="feedback">El teléfono debe tener formato numérico</span>
+        </div>
+    </div>
+
+    <button id="request-info-send-button-schedule-visit" class="adform-button filled">Enviar</button>
+    <span class="privacy-and-conditions">Al dar click e ingresar tus datos, estará aceptando los <a href="https://www.lifullconnect.com/aviso-legal-direct/" target="_blank">Términos y condiciones de Lamudi</a> y las <a href="https://www.lifullconnect.com/global-privacy-policy-region6/" target="_blank">Políticas de Privacidad</a> de la página.</span>
+    </div>
+    <div class="on-success">
+    <span>¡Listo!
+    Hemos enviado tu mensaje al anunciante.</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="fullpage-modal new-fullpage-modal email-inquiry-modal" id="email-inquiry-modal-chat-options">
+    <div class="background">
+    <div class="modal-view">
+    <div class="header">
+        <div class="title">Más información</div>
+        <div class="close close--lamudi" id="close-email-inquiry-modal-chat-options"></div>
+    </div>
+    <div class="content">
+    <div class="form">
+    <div id="email-inquiry-modal-message" class="message">Ingresa tu celular aquí para ver el mío</div>
+
+    <div class="adform-input-wrapper">
+    <div class="adform-input-header">
+        <span class="title-label">Email *</span>
+        <span class="error-text">Campo obligatorio</span>
+    </div>
+    <input class="adform-input" type="tel" name="view-phone-phone" id="phone-input-chat-options" placeholder="Teléfono *">
+    </div>
+
+    <button id="submit-button-chat-options" class="adform-button filled whatsapp">Conectar con Whatsapp</button>
+    <span class="privacy-and-conditions">Al dar click e ingresar tus datos, estará aceptando los <a href="https://www.lifullconnect.com/aviso-legal-direct/" target="_blank">Términos y condiciones de Lamudi</a> y las <a href="https://www.lifullconnect.com/global-privacy-policy-region6/" target="_blank">Políticas de Privacidad</a> de la página.</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="fullpage-modal new-fullpage-modal phone-tracking-modal" id="phone-tracking-modal">
+    <div class="background">
+    <div class="modal-view">
+    <div class="header">
+        <div class="title">Llamar</div>
+        <div class="close close--lamudi" id="close-phone-tracking-modal"></div>
+    </div>
+    <div class="content">
+    <div class="phone-modal">
+    <a id="phone-redirect">
+        <div class="phone-modal__button">
+            <div class="phone-modal__button--icon">
+                <div class="icon"></div>
+            </div>
+            <div class="phone-modal__button--info">
+                <span class="message">Número de teléfono</span>
+                <span id="display-phone" class="phone"></span>
+            </div>
+            <div class="phone-modal__button--arrow">
+            </div>
+        </div>
+    </a>
+    <div class="phone-modal__warning">
+        <div class="phone-modal__warning--info-icon"></div>
+        <div class="phone-modal__warning--text">
+            <span id="phone-tracking-text" class="text" data-textmessage="No borres los dígitos (,XXXX*) para llamar y poder redirigirte al anunciante">No borres los dígitos (,XXXX*) para llamar y poder redirigirte al anunciante</span>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="fullpage-modal  poll-modal" id="poll-modal">
+    <div class="background">
+    <div class="modal-view">
+    <div class="header">
+        <div class="title">Más Info</div>
+        <div class="close close--lamudi" id="close-poll-modal"></div>
+    </div>
+    <div class="content">
+    <div class="poll-success-message">
+    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+    <path fill="currentColor" d="M17 0c9.389 0 17 7.611 17 17s-7.611 17-17 17S0 26.389 0 17 7.611 0 17 0zm0 4C9.82 4 4 9.82 4 17s5.82 13 13 13 13-5.82 13-13S24.18 4 17 4zm7.208 6.369c.856.607 1.09 1.764.564 2.65l-.09.138-6.902 9.733c-.715 1.008-2.15 1.125-3.02.283l-.11-.115L9.5 17.233c-.731-.828-.653-2.092.175-2.823.784-.693 1.96-.66 2.703.05l.12.124 3.477 3.934 5.443-7.675c.64-.9 1.888-1.113 2.789-.474z"></path>
+    </svg>
+    <span>
+        Solicitud de información enviada al anunciante
+    </span>
+    </div>
+    <div class="poll-question">
+    <span>¿Podrías decirnos por qué motivos has contactado al anunciante?</span>
+    </div>
+    <div class="poll-options">
+    <form name="poll-form">
+    <div class="poll-option">
+        <input type="radio" id="availability" name="poll-option-checkbox" value="availability">
+        <label for="availability">Disponibilidad de la propiedad</label>
+    </div>
+
+    <div class="poll-option">
+        <input type="radio" id="location" name="poll-option-checkbox" value="location">
+        <label for="location">Localización</label>
+    </div>
+
+    <div class="poll-option">
+        <input type="radio" id="photos" name="poll-option-checkbox" value="morePhotos">
+        <label for="photos">Más fotos/videos</label>
+    </div>
+
+    <div class="poll-option">
+        <input type="radio" id="schedule-visit" name="poll-option-checkbox" value="scheduleAVisit">
+        <label for="schedule-visit">Coordinar una visita</label>
+    </div>
+
+    <div class="poll-option">
+        <input type="radio" id="consult-price" name="poll-option-checkbox" value="price">
+        <label for="consult-price">Consultar precio</label>
+    </div>
+
+    <div class="poll-option">
+        <input type="radio" id="properties" name="poll-option-checkbox" value="characteristics">
+        <label for="properties">Características de la propiedad</label>
+    </div>
+
+    <div class="poll-option">
+        <input type="radio" id="terms" name="poll-option-checkbox" value="conditions">
+        <label for="terms">Condiciones de compra o alquiler</label>
+    </div>
+
+    <div class="poll-option">
+        <input type="radio" id="others" name="poll-option-checkbox" value="others">
+        <label for="others">Otros</label>
+    </div>
+    </form>
+    <div class="poll-message">
+    <textarea name="poll-message" id="poll-message" placeholder="Escribe otras razones..." hidden=""></textarea>
+    </div>
+    <button class="adform-button filled disabled" id="poll-send-button" disabled="">Enviar</button>
+    <button class="adform-button hollow" id="poll-not-now-button">Ahora no</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <section class="adform">
+    <div id="transparent-div" class="adform__transparent-div"></div>
+    <div class="page__container">
+    <div class="adform__detail" id="id_form_des">
+
+    <nav aria-label="breadcrumb">
+    <ul class="breadcrumb-custom">
+    <li class="breadcrumb-custom-item">
+        <a href="https://www.lamudi.com.mx/for-sale/">Inicio</a></li>
+    <li class="breadcrumb-custom-item">
+        <a href="https://www.lamudi.com.mx/casa/townhouse/for-sale/">Casas en Fraccionamiento</a></li>
+    <li class="breadcrumb-custom-item">
+        <a href="https://www.lamudi.com.mx/mexico/casa/townhouse/for-sale/">Estado de México</a></li>
+    <li class="breadcrumb-custom-item">
+        <a href="https://www.lamudi.com.mx/mexico/tecamac/casa/townhouse/for-sale/">Tecámac</a></li>
+    <li class="breadcrumb-custom-item breadcrumb-custom-item-last">
+        <a href="https://www.lamudi.com.mx/mexico/tecamac/villas-del-real-1/casa/townhouse/for-sale/">Villas del Real</a></li>
+    </ul>
+    </nav>
+
+
+    <div class="photos">
+
+    <div class="swiper-container gallery-swiper-container swiper-initialized swiper-horizontal swiper-ios">
+        <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+        <div class="swiper-slide swiper-slide-active" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni84NmUyZmQ5MC1lNDVlLTQ4ZTAtYTU5ZC0yZDllMDk4OThhOTUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 1" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="0">
+        </div>
+        <div class="swiper-slide swiper-slide-next" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8yYzU5MWY3YS01NTkwLTQ1OTQtYjBhMS04OTg1YzdkN2FmMDAuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 2" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="1">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9mOTQ5MmQ0Yy1jNTY4LTQ0MGYtYTI0Yy0wNjAxYTQwOTFkMDguanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 3" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="2">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8wODUyNGViOC04NTkzLTRhNmEtYjA5Mi0wN2M3M2I2NmNiNDUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 4" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="3">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9lNmIzYTgxMS0zOWNlLTQyYjktYjE3Zi1kNjE2OGY2YzQ5YmEuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 5" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="4">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni82ZTc3ZjdkZS0xZDZmLTQzZTUtOTFkMi0yZWEwNDY4NDgwODUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 6" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="5">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8yOWIzNGFhOC0xODRjLTQyNGYtOGY3YS00NjkwNTk0YThmOWUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 7" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="6">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9iNDc1ODM2MC05MWM3LTQ3OTQtYjZhYy0yZDMxYzhiNjYzOWYuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 8" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="7">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8xNWVlODdjNy05NjY1LTQ3N2MtOGZkNy00NzI3OWY1NzAxYmEuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 9" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="8">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9lMzFkNjcwNC1jM2Q0LTQzNGQtYmE2OS0xZTZmMTk5ZWU1NTMuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 10" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="9">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9kMThmNDMzMi1mY2Y2LTQ3YzgtYmFlMC01ZmZlYTI2ZWFhNmUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 11" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="10">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni83OWI1MDllYS01NTI2LTQzZGMtOTZhMS1mMjVlY2E0ZjhlNTIuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 12" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="11">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9lNjJmNGY2My1lNGQ2LTQ5ZmQtOWEwMS00YzcwNWU3MDViNjAuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 13" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="12">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9hMDkxODA2Mi0yNDJlLTRkMDItYmIzOS05MGYwZTRkODBiNGIuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 14" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="13">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni85MmQxODA5OS1mYzAyLTRmYWEtODc4Ny05MDU2YWQ4YTM4MzkuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 15" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="14">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9kZWZhZDJmNC1mYjhkLTRjMjgtYTkyMS04ZTczM2IwOGJjMTQuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 16" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="15">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni82ZDhlN2Q3NC1hYThmLTRjOGUtYTc3Zi0yOTFhOGMwZjJlMDQuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 17" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="16">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8zYzZmMDVhNC1lODFkLTQzZmMtYjNhZi00MGRhMWM2NDI3YTkuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 18" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="17">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9iNDU3ZDEwYy00MTlkLTQ3NmQtYTkwNC1mMTA2MjVhMjhjNWQuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 19" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="18">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9iMTM1ODlmMS0zYjg0LTRmY2YtYTY5OS01Y2FmYzM4NzUzMTUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 20" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="19">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni80NzMwNTg3Ny1lMDQyLTQ3MGQtYWMyOC02ODQwYTNhMTBjYjIuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 21" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="20">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8xYWM4MDdkNC1jZjgwLTRhNmEtYmNmYS00ODM4MjI2YmU2ODcuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 22" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="21">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://images.proppit.com/floor-plans/27b38278-bf1d-408e-858c-f2f473926246/6963400d-5f5d-4ff2-b40a-c15961eea003.jpg" alt="place photo 23" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="22" data-plan="true">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" src="https://images.proppit.com/floor-plans/27b38278-bf1d-408e-858c-f2f473926246/14d11d1e-00c7-4d86-98e2-d0e55c52ade9.jpg" alt="place photo 24" onerror="replaceForPlaceholderImage.apply(this)" data-element="main-swiper-slide" data-slide="23" data-plan="true">
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <meta name="videoId" content="Z6X9G0IDxVk">
+            <div id="youtubePlayer" data-videoslide="true" data-slide="24"></div>
+            <div data-videoslide="true" data-slide="24"></div>
+        </div>
+        <div class="swiper-slide" style="width: 751px;">
+            <img rel="preload" fetchpriority="high" as="image" id="image-to-form" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8xYWM4MDdkNC1jZjgwLTRhNmEtYmNmYS00ODM4MjI2YmU2ODcuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==#" alt="place photo 26" onerror="replaceForPlaceholderImage.apply(this)" data-form="true" data-element="main-swiper-slide" data-slide="25">
+            <div class="shadow-background">
+                <span class="last-image-text">¿Te interesa esta propiedad?</span>
+                <div id="go-to-form-button" class="go-to-form">
+                    <span>Contactar</span>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="swiper-pagination-container">
+        <div class="pagination-icon">
+            <img src="https://multimedia.lamudi.com.mx/lamudi/mx/images/icon-gallery-white.svg" alt="icon-camera">
+            <div class="swiper-pagination swiper-pagination-adform swiper-pagination-fraction swiper-pagination-horizontal"><span class="swiper-pagination-current">1</span> / <span class="swiper-pagination-total">26</span></div>
+        </div>
+
+            <div id="floor-plan" class="floor-plan-button floor-plan-button--lamudi image-gallery-button">
+                    <img src="https://multimedia.lamudi.com.mx/front/f05cca4e/adform/assets/images/lamudi/ic-plano.svg" alt="Floor plan">
+            </div>
+
+            <div data-test="image-gallery-video-button" class="swiper-button-video swiper-button-video-lamudi image-gallery-button">
+                <meta name="videoIndex" content="26">
+                <img id="videoCamSvg" src="https://multimedia.lamudi.com.mx/front/f05cca4e/adform/assets/images/lamudi/videocam-white.svg">
+            </div>
+
+    </div>
+
+    <div class="swiper-youtube-button-container swiper-youtube-button-container-hidden">
+        <img src="https://multimedia.lamudi.com.mx/front/f05cca4e/adform/assets/images/form/youtube-button.svg">
+    </div>
+
+    <div>
+        <div class="swiper-button-prev swiper-button-adform swiper-button-disabled" id="swiper-button-prev"></div>
+    </div>
+
+    <div>
+    <div class="swiper-button-next swiper-button-adform" id="swiper-button-next"></div>
+    </div>
+    </div>
+    </div>
+
+    <div class="row-details">
+    <div class="left-details">
+        <div class="main-title"><h1>Venta de Casa en Villa del Real Tecámac Oferta</h1></div>
+    <div id="prices-and-fees" class="prices-and-fees">
+        <div class="prices-and-fees__price-item">
+            <div class="prices-and-fees__price">$ 7,000,000 MXN</div>
+        </div>
+        <div class="prices-and-fees__community-fees">
+            <div class="prices-and-fees__title">Gastos de comunidad:</div>
+            <div class="prices-and-fees__community-price">$ 1,000 MXN</div>
+        </div>
+    </div>
+    <div class="view-map">
+    <div class="view-map__icon"></div>
+    <div id="view-map__text" class="view-map__text">Conj Hab Villa del Real 3ra Secc, Tecámac, México</div>
+    </div>
+    <div class="place-details place-details--all-elements-showing">
+    <div class="details-item">
+        <div class="details-item-icon">
+            <i class="details-item__icon-bed" alt="bed"></i>
+        </div>
+        <div class="details-item-value">2 dorm</div>
+    </div>
+    <div class="details-item">
+        <div class="details-item-icon">
+            <i class="details-item__icon-bath" alt="bath"></i>
+        </div>
+        <div class="details-item-value">1 baño</div>
+    </div>
+    <div class="details-item">
+        <div class="details-item-icon">
+            <i class="details-item__icon-area" alt="area"></i>
+        </div>
+        <div class="details-item-value">60 m²</div>
+    </div>
+    </div>
+
+    <div class="place-features">
+        <div class="property-type common">
+            <span>Tipo de vivienda: </span>
+            <span class="place-features__values">Casa en Fraccionamiento</span>
+        </div>
+        <div class="operation-type common">
+            <span>Tipo de operación: </span>
+            <span class="place-features__values">Venta</span>
+        </div>
+        <div class="year common">
+            <span>Año de construcción: </span>
+            <span class="place-features__values">2005</span>
+        </div>
+        <div class="project common">
+            <span>Estado: </span>
+            <span class="place-features__values">Bueno</span>
+        </div>
+        <div class="floor-area common">
+            <span>Superficie construida: </span>
+            <span class="place-features__values">60 m²</span>
+        </div>
+        <div class="plot-area common plot-area-basics">
+            <span>Superficie total: </span>
+            <span class="place-features__values">40 m²</span>
+        </div>
+    </div>
+            <div class="date">18 may 2023 - Publicado por Business World Inmobiliaria - Business World Inmobiliaria</div>
+    </div>
+
+    </div>
+
+    <div class="description">
+    <div class="title">Descripción</div>
+    <div id="description-text" class="content"><span>Casa en fraccionamiento, cuenta con todos los servicios, excelente estado de conservación, listo para habitar.
+
+    Privada en Gijón, Villa del Real IV S…</span></div>
+    <div id="description-text-full" class="content hidden">Casa en fraccionamiento, cuenta con todos los servicios, excelente estado de conservación, listo para habitar.
+
+    Privada en Gijón, Villa del Real IV Secc, Tecámac, Edo. Méx.
+
+    Superficie:  60 mts
+    Habitaciones: 2 
+    Baños: 1 
+    Estacionamiento: 1
+
+
+    ¡Contáctame!</div>
+    <span id="view-more-description" class="view-more">Ver más</span>
+    </div>
+
+    <div class="facilities">
+    <div class="facilities__title">Características de la propiedad</div>
+    <div id="facilities__options" class="facilities__options">
+    <ul class=" left-list">
+    <div class="facilities__item"><li><span>Estado: Bueno</span></li></div>
+    <div class="facilities__item"><li><span>Superficie total: 40 m²</span></li></div>
+    <div class="facilities__item"><li><span>Internet</span></li></div>
+    <div class="facilities__item"><li><span>Armario empotrado</span></li></div>
+    <div class="facilities__item"><li><span>Electricidad</span></li></div>
+    </ul>
+    <ul class=" ">
+    <div class="facilities__item"><li><span>Superficie construida: 60 m²</span></li></div>
+    <div class="facilities__item"><li><span>Garaje</span></li></div>
+    <div class="facilities__item"><li><span>Televisión por cable</span></li></div>
+    <div class="facilities__item"><li><span>Agua</span></li></div>
+    <div class="facilities__item"><li><span>Sin muebles</span></li></div>
+    </ul>
+    </div>
+
+    <div class="facilities__view-more-facilites">
+        <span id="facilities__view-more" class="facilities__view-more">Ver más</span>
+    </div>
+    </div>
+    <div class="facilities">
+    <div class="facilities__title">Características del edificio</div>
+    <div id="facilities__options-building" class="facilities__options-building">
+    <ul class=" left-list">
+    <div class="facilities__item"><li><span>Año de construcción: 2005</span></li></div>
+    <div class="facilities__item"><li><span>Parrilla</span></li></div>
+    </ul>
+    <ul class=" ">
+    <div class="facilities__item"><li><span>Seguridad</span></li></div>
+    <div class="facilities__item"><li><span>Caseta de vigilancia</span></li></div>
+    </ul>
+    </div>
+
+    </div>
+<!-- Parametros de iframe nova -->
+    <div 
+        style="border: 1px solid #e8e8e8; border-radius:8px;margin:auto;width:98%;" 
+        id="id_space_sb"
+        data-value-bulding="7000000"
+        data-state-bulding="MEX"
+        data-name-bulding="Villa del Real Tecámac"
+        data-is-mobile="false"
+        data-currency="MEX"
+        data-sub-dom="lamudi"
+        data-url-bulding="http://wiuefiuwhfiweuhfiwuefweiufhwe.mx"
+        >
+    
+    </div>
+
+    
+
+
+    <div class="nearby-locations">
+        <div class="nearby-locations__title">Cerca de:</div>
+        <ul>
+                <div class="keywords-odd facilities__item">
+                    <li><span class="facilities__item-text">Escuelas</span></li>
+                </div>
+                <div class="keywords-even facilities__item">
+                    <li><span class="facilities__item-text">Centros comerciales</span></li>
+                </div>
+                <div class="keywords-odd facilities__item">
+                    <li><span class="facilities__item-text">Parques</span></li>
+                </div>
+                <div class="keywords-even facilities__item">
+                    <li><span class="facilities__item-text">Avenidas principales</span></li>
+                </div>
+        </ul>
+    </div>
+
+
+    </div>
+
+    <div id="anchor-form" class="adform__contact w-contac">
+    <div class="contact-form" data-highlighted="true">
+    <div class="content">
+    <div class="form-header">
+    <div class="agency">
+    <img src="https://images.proppit.com/publisher/0d5a2ee9-9245-4ce4-aa0f-4f3f61c021dd/logo.jpeg" alt="Agency information">
+    <div class="agency__info">
+    <span class="name">Business World Inmobiliaria - Business World Inmobiliaria</span>
+    <a href="https://www.lamudi.com.mx/inmobiliaria/41032-73-4f3f61c02226-928e-d5a2f32-aa58-4d2d">Business World Inmobiliaria - Business World Inmobiliaria</a>
+    </div>
+    </div>
+    </div>
+    <div id="adform-contact-form" class="contact-form">
+        <div class="form">
+                <div class="adform-input-wrapper">
+                    <div class="adform-input-header">
+                        <span class="error-text">Campo obligatorio</span>
+                    </div>
+                    <input data-test="form-name" class="adform-input" type="text" name="name" id="form-name" placeholder="Nombre*">
+                </div>
+
+                <div class="adform-input-wrapper">
+                    <div class="adform-input-header">
+                        <span class="error-text">Campo obligatorio</span>
+                    </div>
+                    <input data-test="form-email" class="adform-input" type="email" name="email" id="form-email" placeholder="Email*">
+                </div>
+                <div class="adform-input-wrapper">
+                    <div class="adform-input-header">
+                    </div>
+                    <div class="phone">
+                        <input data-test="form-phone" id="form-phone" class="adform-input" type="tel" name="phone" placeholder="Teléfono*">
+                        <span class="feedback">El teléfono debe tener formato numérico</span>
+                    </div>
+                </div>
+                <textarea id="form-message" class="adform-textarea" name="message" cols="30" rows="10">Me gustaría recibir más información sobre la propiedad con referencia MDVD01</textarea>
+            <div class="privacy-and-conditions">Al dar click e ingresar tus datos, estará aceptando los <a href="https://www.lifullconnect.com/aviso-legal-direct/" target="_blank">Términos y condiciones de Lamudi</a> y las <a href="https://www.lifullconnect.com/global-privacy-policy-region6/" target="_blank">Políticas de Privacidad</a> de la página.</div>
+            <button id="request-info-send-button" class="adform-button filled">
+                Contactar agente
+            </button>
+        </div>
+        <div class="on-success">
+            <span>¡Listo!
+    Hemos enviado tu mensaje al anunciante.</span>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div id="similar-ads-container">
+    <div class="similar-ads-title hidden">
+    <span>Basado en tu búsqueda</span>
+    </div>
+    <div class="similar-ads-content-container hidden">
+    <div class="swiper-container similar-ads-swiper">
+    <div class="swiper-wrapper similar-ads-wrapper"></div>
+    <div class="swiper-pagination-container">
+        <div class="swiper-pagination swiper-pagination-adform similar-ads-pagination"></div>
+    </div>
+    <div class="swiper-button-container swiper-button-container-prev">
+        <div class="swiper-button-prev swiper-button-adform btn-prev-similar"></div>
+    </div>
+    <div class="swiper-button-container swiper-button-container-next">
+        <div class="swiper-button-next swiper-button-adform btn-next-similar"></div>
+    </div>
+    </div>
+    <div id="similar-ads-view-more" class="similar-ads-buttons similar-ads-view-more hidden">
+    <span>Ver más</span>
+    </div>
+    <div id="similar-ads-view-less" class="similar-ads-buttons similar-ads-view-less">
+    <span>Ver menos</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <div class="gallery" id="full-page-gallery-modal">
+    <div class="gallery__photos">
+    <div class="gallery__photos-swiper">
+    <div class="swiper-container full-page-gallery-swiper-container">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni84NmUyZmQ5MC1lNDVlLTQ4ZTAtYTU5ZC0yZDllMDk4OThhOTUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 1" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="0">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8yYzU5MWY3YS01NTkwLTQ1OTQtYjBhMS04OTg1YzdkN2FmMDAuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 2" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="1">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9mOTQ5MmQ0Yy1jNTY4LTQ0MGYtYTI0Yy0wNjAxYTQwOTFkMDguanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 3" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="2">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8wODUyNGViOC04NTkzLTRhNmEtYjA5Mi0wN2M3M2I2NmNiNDUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 4" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="3">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9lNmIzYTgxMS0zOWNlLTQyYjktYjE3Zi1kNjE2OGY2YzQ5YmEuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 5" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="4">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni82ZTc3ZjdkZS0xZDZmLTQzZTUtOTFkMi0yZWEwNDY4NDgwODUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 6" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="5">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8yOWIzNGFhOC0xODRjLTQyNGYtOGY3YS00NjkwNTk0YThmOWUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 7" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="6">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9iNDc1ODM2MC05MWM3LTQ3OTQtYjZhYy0yZDMxYzhiNjYzOWYuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 8" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="7">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8xNWVlODdjNy05NjY1LTQ3N2MtOGZkNy00NzI3OWY1NzAxYmEuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 9" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="8">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9lMzFkNjcwNC1jM2Q0LTQzNGQtYmE2OS0xZTZmMTk5ZWU1NTMuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 10" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="9">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9kMThmNDMzMi1mY2Y2LTQ3YzgtYmFlMC01ZmZlYTI2ZWFhNmUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 11" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="10">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni83OWI1MDllYS01NTI2LTQzZGMtOTZhMS1mMjVlY2E0ZjhlNTIuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 12" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="11">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9lNjJmNGY2My1lNGQ2LTQ5ZmQtOWEwMS00YzcwNWU3MDViNjAuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 13" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="12">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9hMDkxODA2Mi0yNDJlLTRkMDItYmIzOS05MGYwZTRkODBiNGIuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 14" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="13">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni85MmQxODA5OS1mYzAyLTRmYWEtODc4Ny05MDU2YWQ4YTM4MzkuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 15" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="14">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9kZWZhZDJmNC1mYjhkLTRjMjgtYTkyMS04ZTczM2IwOGJjMTQuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 16" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="15">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni82ZDhlN2Q3NC1hYThmLTRjOGUtYTc3Zi0yOTFhOGMwZjJlMDQuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 17" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="16">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8zYzZmMDVhNC1lODFkLTQzZmMtYjNhZi00MGRhMWM2NDI3YTkuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 18" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="17">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9iNDU3ZDEwYy00MTlkLTQ3NmQtYTkwNC1mMTA2MjVhMjhjNWQuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 19" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="18">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9iMTM1ODlmMS0zYjg0LTRmY2YtYTY5OS01Y2FmYzM4NzUzMTUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 20" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="19">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni80NzMwNTg3Ny1lMDQyLTQ3MGQtYWMyOC02ODQwYTNhMTBjYjIuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 21" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="20">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8xYWM4MDdkNC1jZjgwLTRhNmEtYmNmYS00ODM4MjI2YmU2ODcuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="place photo 22" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="21">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://images.proppit.com/floor-plans/27b38278-bf1d-408e-858c-f2f473926246/6963400d-5f5d-4ff2-b40a-c15961eea003.jpg" alt="place photo 23" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="22">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" src="https://images.proppit.com/floor-plans/27b38278-bf1d-408e-858c-f2f473926246/14d11d1e-00c7-4d86-98e2-d0e55c52ade9.jpg" alt="place photo 24" onerror="replaceForPlaceholderImage.apply(this)" data-element="full-page-swiper-slide" data-slide="23">
+    </div>
+
+    <div class="swiper-slide">
+            <img rel="preload" fetchpriority="high" as="image" id="image-to-form" src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8xYWM4MDdkNC1jZjgwLTRhNmEtYmNmYS00ODM4MjI2YmU2ODcuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==#" alt="place photo 26" onerror="replaceForPlaceholderImage.apply(this)" data-form="true" data-element="full-page-swiper-slide" data-slide="25">
+            <div class="shadow-background">
+                <span class="last-image-text">¿Te interesa esta propiedad?</span>
+                <div id="go-to-form-button" class="go-to-form">
+                    <span>Contactar</span>
+                </div>
+            </div>
+    </div>
+
+    </div>
+    <div class="swiper-pagination-container">
+    <div class="pagination-icon">
+        <img src="https://multimedia.lamudi.com.mx/lamudi/mx/images/icon-gallery-white.svg" alt="icon-camera">
+        <div class="swiper-pagination swiper-pagination-adform"></div>
+    </div>
+    </div>
+
+    <div class="swiper-youtube-button-container swiper-youtube-button-container-hidden">
+    <img src="https://multimedia.lamudi.com.mx/front/f05cca4e/adform/assets/images/form/youtube-button.svg">
+    </div>
+
+    <div>
+    <div class="full-page-swiper-button-prev swiper-button-prev swiper-button-adform"></div>
+    </div>
+
+    <div>
+    <div class="full-page-swiper-button-next swiper-button-next swiper-button-adform"></div>
+    </div>
+    </div>
+    </div>
+    <div class="gallery__photos-slider" id="gallery-horizontal-slider">
+    <div class="gallery__slider-container">
+                <div class="gallery__slide gallery__slide--selected" data-element="gallery-slide" data-slide="0">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni84NmUyZmQ5MC1lNDVlLTQ4ZTAtYTU5ZC0yZDllMDk4OThhOTUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="1">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8yYzU5MWY3YS01NTkwLTQ1OTQtYjBhMS04OTg1YzdkN2FmMDAuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="2">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9mOTQ5MmQ0Yy1jNTY4LTQ0MGYtYTI0Yy0wNjAxYTQwOTFkMDguanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="3">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8wODUyNGViOC04NTkzLTRhNmEtYjA5Mi0wN2M3M2I2NmNiNDUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="4">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9lNmIzYTgxMS0zOWNlLTQyYjktYjE3Zi1kNjE2OGY2YzQ5YmEuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="5">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni82ZTc3ZjdkZS0xZDZmLTQzZTUtOTFkMi0yZWEwNDY4NDgwODUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="6">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8yOWIzNGFhOC0xODRjLTQyNGYtOGY3YS00NjkwNTk0YThmOWUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="7">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9iNDc1ODM2MC05MWM3LTQ3OTQtYjZhYy0yZDMxYzhiNjYzOWYuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="8">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8xNWVlODdjNy05NjY1LTQ3N2MtOGZkNy00NzI3OWY1NzAxYmEuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="9">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9lMzFkNjcwNC1jM2Q0LTQzNGQtYmE2OS0xZTZmMTk5ZWU1NTMuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="10">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9kMThmNDMzMi1mY2Y2LTQ3YzgtYmFlMC01ZmZlYTI2ZWFhNmUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="11">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni83OWI1MDllYS01NTI2LTQzZGMtOTZhMS1mMjVlY2E0ZjhlNTIuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="12">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9lNjJmNGY2My1lNGQ2LTQ5ZmQtOWEwMS00YzcwNWU3MDViNjAuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="13">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9hMDkxODA2Mi0yNDJlLTRkMDItYmIzOS05MGYwZTRkODBiNGIuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="14">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni85MmQxODA5OS1mYzAyLTRmYWEtODc4Ny05MDU2YWQ4YTM4MzkuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="15">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9kZWZhZDJmNC1mYjhkLTRjMjgtYTkyMS04ZTczM2IwOGJjMTQuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="16">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni82ZDhlN2Q3NC1hYThmLTRjOGUtYTc3Zi0yOTFhOGMwZjJlMDQuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="17">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8zYzZmMDVhNC1lODFkLTQzZmMtYjNhZi00MGRhMWM2NDI3YTkuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="18">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9iNDU3ZDEwYy00MTlkLTQ3NmQtYTkwNC1mMTA2MjVhMjhjNWQuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="19">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni9iMTM1ODlmMS0zYjg0LTRmY2YtYTY5OS01Y2FmYzM4NzUzMTUuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="20">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni80NzMwNTg3Ny1lMDQyLTQ3MGQtYWMyOC02ODQwYTNhMTBjYjIuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="21">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8xYWM4MDdkNC1jZjgwLTRhNmEtYmNmYS00ODM4MjI2YmU2ODcuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="22">
+                    <img src="https://images.proppit.com/floor-plans/27b38278-bf1d-408e-858c-f2f473926246/6963400d-5f5d-4ff2-b40a-c15961eea003.jpg" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="23">
+                    <img src="https://images.proppit.com/floor-plans/27b38278-bf1d-408e-858c-f2f473926246/14d11d1e-00c7-4d86-98e2-d0e55c52ade9.jpg" alt="gallery slide">
+                </div>
+                <div class="gallery__slide " data-element="gallery-slide" data-slide="25">
+                    <img src="https://img.lamudi.com.mx/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzI3YjM4Mjc4LWJmMWQtNDA4ZS04NThjLWYyZjQ3MzkyNjI0Ni8xYWM4MDdkNC1jZjgwLTRhNmEtYmNmYS00ODM4MjI2YmU2ODcuanBnIiwiYnJhbmQiOiJMQU1VREkiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjozMDAsImZpdCI6ImNvdmVyIn19fQ==#" alt="gallery slide">
+                </div>
+    </div>
+    </div>
+    </div>
+    <div class="gallery__form">
+    <div class="gallery__back" id="close-full-page-gallery-modal">
+    </div>
+    </div>
+    </div>
+    <div class="toolbar">
+    <button id="open-phone-modal-group-modal" class="adform-button filled" data-test="phone-button">
+    Teléfono
+    </button>
+    <button id="button-chat-whatsapp-mobile" value="https://api.whatsapp.com/send?phone=+525536691411&amp;text=https://www.lamudi.com.mx/detalle/41032-73-f2f47392628f-bf66-27b382c1-85d5-40d7 Me gustaría recibir más información sobre la propiedad con referencia MDVD01" class="chat-button with-text hollow whatsapp">
+    <div class="icon">
+            <img src="https://multimedia.lamudi.com.mx/front/f05cca4e/adform/assets/images/lamudi/whatsapp-icon-white.svg" alt="whatsapp-icon">
+    </div>
+        <div class="text">Whatsapp</div>
+    </button>
+    </div>
+
+    <footer class="footer">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm">
+        <h5>SOBRE LAMUDI</h5>
+
+        <ul class="block">
+            <li><a href="https://www.lifullconnect.com/brands/lamudi-es/" target="_blank">Quiénes somos</a></li>
+            <li><a href="https://www.lifullconnect.com/careers/" target="_blank">Trabaja con Nosotros</a></li>
+            <li><a href="/journal/reportes-mercado-inmobiliario/" target="_blank">Reportes del Mercado Inmobiliario</a></li>
+            <li><a href="https://info.socasesores.com/autoriza-tu-credito" target="_blank">Calculadora de Crédito Hipotecario</a></li>
+            <li><a href="/journal/credito-infonavit-lamudi/" target="_blank">Crédito INFONAVIT</a></li>
+            <li><a href="/journal/guia-infonavit/" target="_blank">Guía INFONAVIT 2022</a></li>
+            <li><a href="/journal/guia-de-inversion-inmobiliaria-lamudi/" target="_blank">Guía de Inversión Inmobiliaria</a></li>
+            <li><a href="/journal/lamudi-tv/" target="_blank">Lamudi TV</a></li>
+            <li><a href="/journal/" target="_blank">Revista Lamudi</a></li>
+        </ul>
+
+    </div>
+    <div class="col-sm">
+        <h5>LEGAL</h5>
+
+        <ul class="block">
+            <li><a href="https://www.lifullconnect.com/aviso-legal-direct/" target="_blank">Aviso Legal y T&amp;C</a></li>
+            <li><a href="https://www.lifullconnect.com/global-privacy-policy-region6/" target="_blank">Política de Privacidad</a></li>
+        </ul>
+
+    </div>
+    <div class="col-sm">
+        <h5>RECURSOS</h5>
+
+        <ul class="block">
+            <li><a href="/journal/guias-inmuebles/" target="_blank">
+                    Guías de compra y venta de propiedades</a></li>
+        </ul>
+
+    </div>
+    <div class="col-sm">
+        <h5>ENCUENTRA EN LAMUDI</h5>
+
+        <ul class="block">
+            <li><a href="/distrito-federal/foreclosures/for-sale/" target="_blank">Remates Hipotecarios en CDMX</a></li>
+            <li><a href="/distrito-federal/departamento/for-rent/" target="_blank">Inmuebles en Renta</a></li>
+            <li><a href="/queretaro-arteaga/queretaro/casa/for-rent/" target="_blank">Propiedades en Renta</a></li>
+            <li><a href="/distrito-federal/departamento/for-sale/" target="_blank">Inmuebles en Venta</a></li>
+            <li><a href="/distrito-federal/casa/for-sale/" target="_blank">Propiedades en Venta</a></li>
+        </ul>
+
+    </div>
+    <div class="col-sm">
+        <h5>AYUDA</h5>
+
+        <ul class="block">
+            <li><a href="https://www.lifullconnect.com/contactanos/" target="_blank">Contacto</a></li>
+            <li><a href="/journal/lamudi-como-funciona/" target="_blank">Cómo funciona</a></li>
+            <li><a href="https://proppit.com/?country=mx" target="_blank">Quiero anunciarme</a></li>
+        </ul>
+
+    </div>
+    <div class="col-sm logos">
+        <div class="logos__brand-logo">
+            <img src="https://multimedia.lamudi.com.mx/lamudi/mx/images/lamudi-positive.svg" alt="Lamudi." width="158" height="40">
+        </div>
+        <div class="logos__social-logo">
+            <a href="https://www.facebook.com/LamudiMX/" target="_blank"><img src="https://multimedia.lamudi.com.mx/lamudi/mx/images/facebook.svg" alt="icono Facebook" width="30" height="30"></a>
+            <a href="https://www.lamudi.com.mx/journal/" target="_blank"><img src="https://multimedia.lamudi.com.mx/lamudi/mx/images/rss.svg" alt="icono RSS" width="30" height="30"></a>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="copyright">
+    <div class="container">
+    <span>© Copyright 2023. www.lamudi.com.mx</span>
+    <div class="logo-lc">
+        <span>PART OF</span>
+        <a href="https://www.lifullconnect.com/" target="_blank"><img src="https://multimedia.lamudi.com.mx/lamudi/mx/images/lc.svg" alt="logo Lifull Connect" width="160" height="20"></a>
+    </div>
+    </div>
+    </div>
+    </footer>
+
+    <script src="./src/js/main.js"  data-div="id_space_sb"></script>
+    <script src="https://multimedia.lamudi.com.mx/front/f05cca4e/adform/bundle-adForm.js"></script>
+    <script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","164457827422996");fbq("track","PageView");</script>
+    <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=164457827422996&amp;ev=PageView&amp;noscript=1">
+    </noscript>
+
+    <script src="https://multimedia.lamudi.com.mx/front/f05cca4e/adform/bundle-lamudiListingPageStyles.js"></script>
+    <script src="https://multimedia.lamudi.com.mx/front/f05cca4e/adform/bundle-sentry.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+    initAdForm({
+    viewPhoneModalField: "phone",
+    viewWhatsappPhoneModalField: "phone",
+    pageViewType: "DETAIL_PAGE",
+    id: "27b38278-bf1d-408e-858c-f2f473926246",
+    proppitId: "27b38278-bf1d-408e-858c-f2f473926246",
+    operationType: "27b38278-bf1d-408e-858c-f2f473926246",
+    userId: "95811fb5-59a5-4028-a528-926f2b259e54",
+    pageViewId: "f8be018a-2e83-4240-abc2-76cd46419fc8",
+    brand: "LAMUDI",
+    country: "MX",
+    device: "MOBILE",
+    chatsData: {
+    socialNetworks: [
+        "whatsapp",
+        ],
+    countryLanguage: "es",
+    branId: "11",
+    adUrl: "https://www.lamudi.com.mx/detalle/41032-73-f2f47392628f-bf66-27b382c1-85d5-40d7",
+    userAgent: "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1",
+    ipAddress: "189.203.174.42",
+    origin: "1"
+    },
+    mapData: {
+    showMap: true,
+    adLocationData: {
+        coordinates: {
+            latitude: "19.6851315",
+            longitude: "-98.9788563"
+        },
+        province: "México",
+        locality: "Tecámac",
+        district: "Conj Hab Villa del Real 3ra Secc",
+        address: `Priv. Galicia, Villa del Real, Ojo de Agua, Estado de México, México`,
+        postcode: ""
+    },
+    visibility: "accurate"
+    },
+    floorPlans: [
+    "https://images.proppit.com/floor-plans/27b38278-bf1d-408e-858c-f2f473926246/6963400d-5f5d-4ff2-b40a-c15961eea003.jpg",
+    
+    "https://images.proppit.com/floor-plans/27b38278-bf1d-408e-858c-f2f473926246/14d11d1e-00c7-4d86-98e2-d0e55c52ade9.jpg",
+    ],
+    virtualTour: [],
+    onlyFormContact: false,
+    isBoosted: true
+    },
+    {
+    isHotjarEnabled: false
+    });
+
+    </script>
+
+
+    </body
+</html
