@@ -27,7 +27,7 @@ const put_params_bulding = (data) => {
     if (/Mobile/i.test(navigator.userAgent)) {
       div_ifrm.innerHTML += `
         <iframe 
-              src="http://novapruebas.morgana.mx//quote/first_step/${params.length>0 ? `?${params}`:''}"
+              src="http://novapruebas.morgana.mx/quote/first_step/${params.length>0 ? `?${params}`:''}"
               style="width:100%; height:750px;"
           >
           </iframe>
@@ -39,7 +39,7 @@ const put_params_bulding = (data) => {
 
     div_ifrm.innerHTML += `
      <iframe 
-            src="http://novapruebas.morgana.mx//quote/first_step/${params.length>0 ? `?${params}`:''}"
+            src="http://novapruebas.morgana.mx/quote/first_step/${params.length>0 ? `?${params}`:''}"
             style="width:100%; height:550px;"
         >
         </iframe>
